@@ -28,7 +28,10 @@ public class Profile
 	   }
 	   
 	   /**
-	    * Instancia al objeto Criteria es un simple contenedor de un bloque de criterios
+	    * Instancia al objeto Criteria es un simple contenedor de un bloque de criterios.
+	    * El metodo matches toma un objeto Criteria e itera sobre cada Criterion en un 
+	    * esfuerzo de determinar si los criterios encajan para las respuestas en el perfil
+	    * o no. 
 	    * @param criteria
 	    * @return
 	    */
