@@ -12,6 +12,9 @@ public class ScoreCollection
 		scores.add(scoreable);
 	}
 	
+	/*
+	 * Metodo que suma el contenido del objeto score y la suma se divido por 2
+	 */
 	public int arithmeticMean()
 	{
 		int total = scores.stream().mapToInt(Scoreable::getScore).sum();
